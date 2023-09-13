@@ -1,3 +1,0 @@
-﻿  Application.cpp
-Application.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Print(void)" (?Print@@YAXXZ) в функции main.
-C:\prog\StartEngine\x64\Debug\Sandbox.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

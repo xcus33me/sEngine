@@ -1,8 +1,10 @@
-#include <iostream>
+#include <stdio.h>
 
-void __declspec(dllexport) Print();
+namespace sEngine {
+	__declspec(dllimport) void Print();
+}
 
 int main()
 {
-	Print();
+	sEngine::Print();
 }

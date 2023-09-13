@@ -1,3 +1,7 @@
 #pragma once
 
-void __declspec(dllimport) Print();
+namespace sEngine {
+
+	__declspec(dllexport) void Print();
+
+}

@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include "Test.h"
 
+namespace sEngine {
 
-void __declspec(dllexport) Print()
-{
-	printf("Welcome to sEngine");
+	__declspec(dllexport) void Print()
+	{
+		printf("Welcome to sEngine!");
+	}
+
 }
