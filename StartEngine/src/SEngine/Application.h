@@ -14,6 +14,9 @@ namespace SE {
 		virtual ~Application();
 
 		virtual void Run();
-
 	};
+
+	// To be defined in the client
+	Application* CreateApplication();
+
 }
